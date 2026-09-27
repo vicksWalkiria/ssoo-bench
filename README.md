@@ -74,7 +74,7 @@ En el directorio [`results/`](results/) se recopilan los benchmarks reales ejecu
 | **OVH Cloud** | VPS Essential (KVM) | Haswell (6 cores) | 12 GB | 321.624 | **52.676 pts** | [`ovh-cloud-vps.json`](results/ovh-cloud-vps.json) |
 | **Nicalia** | Hosting Elástico NVMe (LiteSpeed) | Xeon Gold 6248R | LVE | 280.000 | **48.170 pts** | [`nicalia-hosting.json`](results/nicalia-hosting.json) |
 | **Raiola Networks** *(ha1006)* | Hosting LiteSpeed HA | Xeon E5-2687W v3 | LVE | 204.565 | **39.677 pts** | [`raiola-networks-ha1006.json`](results/raiola-networks-ha1006.json) |
-| **Raiola Networks** *(Bruno Ramos)* | Hosting LiteSpeed (`com1023`) | Xeon E5-2687W v3 | LVE | 200.569 | **37.276 pts** | [`raiola-networks-com1023-bruno.json`](results/raiola-networks-com1023-bruno.json) |
+| **Raiola Networks** *(Colaborador)* | Hosting LiteSpeed (`com1023`) | Xeon E5-2687W v3 | LVE | 200.569 | **37.276 pts** | [`raiola-networks-com1023.json`](results/raiola-networks-com1023.json) |
 
 Puedes consultar el análisis comparativo completo y los ratios de **Rendimiento / Precio** en el artículo oficial:
 👉 [**Comparativa de Hostings y VPS: El Gran Ranking Técnico en SistemasOperativos.info**](https://sistemasoperativos.info/linux/comparativa-hostings-vps-benchmark/)
