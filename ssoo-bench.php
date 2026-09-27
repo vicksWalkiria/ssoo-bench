@@ -1213,6 +1213,9 @@ if ($isCli) {
                 <a href="https://sistemasoperativos.info/linux/comparativa-hostings-vps-benchmark/" class="btn-nav" target="_blank">
                     <span>📊</span> Ver Comparativa
                 </a>
+                <a href="https://github.com/vicksWalkiria/ssoo-bench" class="btn-nav" target="_blank" rel="noopener">
+                    <span>🐙</span> GitHub
+                </a>
             </div>
         </header>
 
