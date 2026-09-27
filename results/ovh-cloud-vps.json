@@ -1,0 +1,57 @@
+{
+    "provider": "OVH Cloud",
+    "plan": "VPS Starter / Essential (Virtual KVM)",
+    "tester": "Victor Alonso",
+    "date": "2026-09-27",
+    "system": {
+        "os": "Linux (6.1.0-53-cloud-amd64)",
+        "arch": "x86_64",
+        "hostname": "vps-6518dc59.vps.ovh.net",
+        "php_version": "8.2.33",
+        "sapi": "cli",
+        "memory_limit": "512M",
+        "max_exec_time": "180",
+        "opcache": "Activado",
+        "jit": "Desactivado",
+        "cpu_model": "Intel Core Processor (Haswell, no TSX)",
+        "cpu_cores": 6,
+        "total_ram": "11.41 GB"
+    },
+    "scores": {
+        "global": 52676,
+        "cpu": 17433,
+        "memory": 22686,
+        "disk": 134492,
+        "database": 8183
+    },
+    "details": {
+        "cpu": {
+            "primes_time": 0.0387,
+            "fib_time": 0.0818,
+            "hash_time": 0.1112,
+            "total_time": 0.4089,
+            "score": 17433
+        },
+        "memory": {
+            "sort_time": 0.0989,
+            "json_time": 0.0715,
+            "total_time": 0.1704,
+            "score": 22686
+        },
+        "disk": {
+            "seq_write_mb_s": 746.12,
+            "seq_read_mb_s": 2651.4,
+            "random_4k_iops": 321624,
+            "disk_type": "NVMe PCIe de Alta Velocidad (Top Tier)",
+            "score": 134492
+        },
+        "database": {
+            "type": "SQLite / MySQL",
+            "status": "Completado con éxito",
+            "score": 8183,
+            "insert_time": 0.0057,
+            "select_time": 0.2498
+        },
+        "duration": 0.9
+    }
+}

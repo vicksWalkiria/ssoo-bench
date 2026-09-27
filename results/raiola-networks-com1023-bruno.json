@@ -1,0 +1,58 @@
+{
+    "provider": "Raiola Networks",
+    "plan": "Hosting Compartido / LiteSpeed",
+    "tester": "Bruno Ramos",
+    "date": "2026-09-27",
+    "system": {
+        "os": "Linux (4.18.0-553.141.2.lve.el8.x86_64)",
+        "arch": "x86_64",
+        "hostname": "com1023.raiolanetworks.es",
+        "php_version": "8.3.33",
+        "sapi": "litespeed",
+        "memory_limit": "512M",
+        "max_exec_time": "180",
+        "opcache": "Desactivado",
+        "jit": "Desactivado",
+        "cpu_model": "Intel(R) Xeon(R) CPU E5-2687W v3 @ 3.10GHz",
+        "cpu_cores": 40,
+        "total_ram": "125.29 GB"
+    },
+    "scores": {
+        "global": 37276,
+        "cpu": 13843,
+        "memory": 27189,
+        "disk": 85041,
+        "database": 7891
+    },
+    "details": {
+        "cpu": {
+            "primes_time": 0.0313,
+            "fib_time": 0.0918,
+            "hash_time": 0.0962,
+            "string_time": 0.3086,
+            "total_time": 0.5279,
+            "score": 13843
+        },
+        "memory": {
+            "sort_time": 0.084,
+            "json_time": 0.0499,
+            "total_time": 0.1339,
+            "score": 27189
+        },
+        "disk": {
+            "seq_write_mb_s": 16.63,
+            "seq_read_mb_s": 3181.07,
+            "random_4k_iops": 200569,
+            "disk_type": "NVMe PCIe de Alta Velocidad (Top Tier)",
+            "score": 85041
+        },
+        "database": {
+            "type": "MariaDB 11.4.13",
+            "status": "Completado con éxito",
+            "score": 7891,
+            "insert_time": 0.0609,
+            "select_time": 0.2693
+        },
+        "duration": 2.54
+    }
+}

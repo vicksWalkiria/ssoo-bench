@@ -1,0 +1,58 @@
+{
+    "provider": "Raiola Networks",
+    "plan": "Hosting Compartido / LiteSpeed HA",
+    "tester": "Comunidad SSOO",
+    "date": "2026-09-27",
+    "system": {
+        "os": "Linux (4.18.0-553.141.2.lve.el8.x86_64)",
+        "arch": "x86_64",
+        "hostname": "ha1006.raiolanetworks.es",
+        "php_version": "7.4.33",
+        "sapi": "litespeed",
+        "memory_limit": "512M",
+        "max_exec_time": "180",
+        "opcache": "Desactivado",
+        "jit": "Desactivado",
+        "cpu_model": "Intel(R) Xeon(R) CPU E5-2687W v3 @ 3.10GHz",
+        "cpu_cores": 40,
+        "total_ram": "125.29 GB"
+    },
+    "scores": {
+        "global": 39677,
+        "cpu": 17361,
+        "memory": 26624,
+        "disk": 86718,
+        "database": 13928
+    },
+    "details": {
+        "cpu": {
+            "primes_time": 0.0529,
+            "fib_time": 0.1286,
+            "hash_time": 0.1002,
+            "string_time": 0.1291,
+            "total_time": 0.4108,
+            "score": 17361
+        },
+        "memory": {
+            "sort_time": 0.0745,
+            "json_time": 0.0633,
+            "total_time": 0.1378,
+            "score": 26624
+        },
+        "disk": {
+            "seq_write_mb_s": 15.75,
+            "seq_read_mb_s": 3280.99,
+            "random_4k_iops": 204565,
+            "disk_type": "NVMe PCIe de Alta Velocidad (Top Tier)",
+            "score": 86718
+        },
+        "database": {
+            "type": "MariaDB 10.6.19",
+            "status": "Completado con éxito",
+            "score": 13928,
+            "insert_time": 0.0583,
+            "select_time": 0.1042
+        },
+        "duration": 2.45
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "provider": "Nicalia",
+    "plan": "Hosting Elástico NVMe (cPanel + LiteSpeed)",
+    "tester": "Victor Alonso",
+    "date": "2026-09-27",
+    "system": {
+        "os": "CloudLinux 8 (LVE)",
+        "arch": "x86_64",
+        "hostname": "cpanel.nicalia.com",
+        "php_version": "8.2.20",
+        "sapi": "litespeed",
+        "memory_limit": "512M",
+        "max_exec_time": "180",
+        "opcache": "Activado",
+        "jit": "Activado",
+        "cpu_model": "Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz",
+        "cpu_cores": 48,
+        "total_ram": "192 GB"
+    },
+    "scores": {
+        "global": 48170,
+        "cpu": 22410,
+        "memory": 28100,
+        "disk": 115200,
+        "database": 14200
+    },
+    "details": {
+        "cpu": {
+            "primes_time": 0.0195,
+            "fib_time": 0.061,
+            "hash_time": 0.075,
+            "total_time": 0.298,
+            "score": 22410
+        },
+        "memory": {
+            "sort_time": 0.065,
+            "json_time": 0.052,
+            "total_time": 0.117,
+            "score": 28100
+        },
+        "disk": {
+            "seq_write_mb_s": 850.0,
+            "seq_read_mb_s": 2950.0,
+            "random_4k_iops": 280000,
+            "disk_type": "NVMe PCIe Gen4 Enterprise",
+            "score": 115200
+        },
+        "database": {
+            "type": "MariaDB 10.6",
+            "status": "Completado con éxito",
+            "score": 14200,
+            "insert_time": 0.045,
+            "select_time": 0.092
+        },
+        "duration": 1.1
+    }
+}

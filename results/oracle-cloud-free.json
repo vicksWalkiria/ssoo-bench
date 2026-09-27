@@ -1,0 +1,57 @@
+{
+    "provider": "Oracle Cloud Infrastructure",
+    "plan": "Always Free Ampere A1 (ARM64)",
+    "tester": "Victor Alonso",
+    "date": "2026-09-27",
+    "system": {
+        "os": "Linux (6.8.0-1058-oracle)",
+        "arch": "aarch64",
+        "hostname": "vps.aprendizdeseo.top",
+        "php_version": "8.2.29",
+        "sapi": "cli",
+        "memory_limit": "512M",
+        "max_exec_time": "180",
+        "opcache": "Activado",
+        "jit": "Desactivado",
+        "cpu_model": "Ampere Neoverse-N1 (ARM64)",
+        "cpu_cores": 2,
+        "total_ram": "11.65 GB"
+    },
+    "scores": {
+        "global": 69499,
+        "cpu": 21852,
+        "memory": 28539,
+        "disk": 180670,
+        "database": 8489
+    },
+    "details": {
+        "cpu": {
+            "primes_time": 0.0201,
+            "fib_time": 0.068,
+            "hash_time": 0.0808,
+            "total_time": 0.3161,
+            "score": 21852
+        },
+        "memory": {
+            "sort_time": 0.0675,
+            "json_time": 0.0577,
+            "total_time": 0.1252,
+            "score": 28539
+        },
+        "disk": {
+            "seq_write_mb_s": 1961.24,
+            "seq_read_mb_s": 2739.08,
+            "random_4k_iops": 429146,
+            "disk_type": "NVMe PCIe de Alta Velocidad (Top Tier)",
+            "score": 180670
+        },
+        "database": {
+            "type": "MariaDB 10.11.15",
+            "status": "Completado con éxito",
+            "score": 8489,
+            "insert_time": 0.0727,
+            "select_time": 0.2307
+        },
+        "duration": 0.79
+    }
+}
