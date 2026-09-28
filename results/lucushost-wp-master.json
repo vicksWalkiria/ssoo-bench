@@ -1,0 +1,59 @@
+{
+    "provider": "LucusHost",
+    "plan": "Hosting WordPress - WP Master",
+    "tester": "Comunidad SSOO",
+    "date": "2026-09-28",
+    "price_eur_month": 19.95,
+    "system": {
+        "os": "Linux (4.18.0-553.22.1.lve.1.el7h.x86_64)",
+        "arch": "x86_64",
+        "hostname": "hl111.lucushost.org",
+        "php_version": "8.5.9",
+        "sapi": "litespeed",
+        "memory_limit": "512M",
+        "max_exec_time": "180",
+        "opcache": "Activado",
+        "jit": "Activado",
+        "cpu_model": "AMD EPYC 7351P 16-Core Processor",
+        "cpu_cores": 32,
+        "total_ram": "125.26 GB"
+    },
+    "scores": {
+        "global": 19525,
+        "cpu": 18989,
+        "memory": 16545,
+        "disk": 26924,
+        "database": 5428
+    },
+    "details": {
+        "cpu": {
+            "primes_time": 0.0255,
+            "fib_time": 0.1184,
+            "hash_time": 0.0338,
+            "string_time": 0.1936,
+            "total_time": 0.3713,
+            "score": 18989
+        },
+        "memory": {
+            "sort_time": 0.1167,
+            "json_time": 0.1355,
+            "total_time": 0.2522,
+            "score": 16545
+        },
+        "disk": {
+            "seq_write_mb_s": 565.31,
+            "seq_read_mb_s": 1400.64,
+            "random_4k_iops": 58525,
+            "disk_type": "NVMe PCIe de Alta Velocidad (Top Tier)",
+            "score": 26924
+        },
+        "database": {
+            "type": "MariaDB 10.6.19",
+            "status": "Completado con éxito",
+            "score": 5428,
+            "insert_time": 0.1235,
+            "select_time": 0.3792
+        },
+        "duration": 1.29
+    }
+}
