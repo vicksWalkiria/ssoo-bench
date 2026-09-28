@@ -76,7 +76,7 @@ En el directorio [`results/`](results/) se recopilan los benchmarks reales ejecu
 | **Nicalia** | Hosting Elástico NVMe (LiteSpeed) | Xeon Gold 6248R | LVE | 280.000 | **48.170 pts** | [`nicalia-hosting.json`](results/nicalia-hosting.json) |
 | **Raiola Networks** *(ha1006)* | Hosting LiteSpeed HA | Xeon E5-2687W v3 | LVE | 204.565 | **39.677 pts** | [`raiola-networks-ha1006.json`](results/raiola-networks-ha1006.json) |
 | **Raiola Networks** *(Colaborador)* | Hosting LiteSpeed (`com1023`) | Xeon E5-2687W v3 | LVE | 200.569 | **37.276 pts** | [`raiola-networks-com1023.json`](results/raiola-networks-com1023.json) |
-| **BanaHosting** *(bh8962)* | Bana Corporate | Xeon E5-2699 v4 | LVE (251 GB) | 103.838 | **19.980 pts** | [`banahosting-bana-corporate.json`](results/banahosting-bana-corporate.json) |
+| **BanaHosting** *(bh8962)* | [Bana Corporate](https://www.banahosting.com/web-hosting/) | Xeon E5-2699 v4 | LVE (251 GB) | 103.838 | **19.980 pts** | [`banahosting-bana-corporate.json`](results/banahosting-bana-corporate.json) |
 | **LucusHost** *(hl111)* | Hosting WP Master | AMD EPYC 7351P | LVE (125 GB) | 58.525 | **19.525 pts** | [`lucushost-wp-master.json`](results/lucushost-wp-master.json) |
 
 Puedes consultar el análisis comparativo completo y los ratios de **Rendimiento / Precio** en el artículo oficial:
