@@ -1,0 +1,60 @@
+{
+    "provider": "LucusHost",
+    "plan": "Hosting SSD Senior (Legacy 3)",
+    "tester": "Comunidad SSOO",
+    "date": "2026-09-28",
+    "price_eur_month": 9.45,
+    "price_eur_year": 113.40,
+    "system": {
+        "os": "Linux (5.14.0-611.54.6.el9_7.x86_64)",
+        "arch": "x86_64",
+        "hostname": "hl247.lucushost.org",
+        "php_version": "8.1.34",
+        "sapi": "litespeed",
+        "memory_limit": "512M",
+        "max_exec_time": "180",
+        "opcache": "Activado",
+        "jit": "Desactivado",
+        "cpu_model": "AMD EPYC 4584PX 16-Core Processor",
+        "cpu_cores": 28,
+        "total_ram": "97.73 GB"
+    },
+    "scores": {
+        "global": 51256,
+        "cpu": 36446,
+        "memory": 32092,
+        "disk": 93838,
+        "database": 21079
+    },
+    "details": {
+        "cpu": {
+            "primes_time": 0.0078,
+            "fib_time": 0.0488,
+            "hash_time": 0.0487,
+            "string_time": 0.0642,
+            "total_time": 0.1695,
+            "score": 36446
+        },
+        "memory": {
+            "sort_time": 0.0504,
+            "json_time": 0.0554,
+            "total_time": 0.1058,
+            "score": 32092
+        },
+        "disk": {
+            "seq_write_mb_s": 44.37,
+            "seq_read_mb_s": 2424.85,
+            "random_4k_iops": 225224,
+            "disk_type": "NVMe PCIe de Alta Velocidad (Top Tier)",
+            "score": 93838
+        },
+        "database": {
+            "type": "SQLite (In-Memory Fallback)",
+            "status": "Completado (SQLite)",
+            "score": 21079,
+            "insert_time": 0.0024,
+            "select_time": 0.0662
+        },
+        "duration": 0.94
+    }
+}
