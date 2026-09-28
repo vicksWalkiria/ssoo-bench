@@ -1310,11 +1310,17 @@ if ($isCli) {
                 <div class="calc-references">
                     <span><strong>Oracle Cloud Free:</strong> 69.499 pts (Infinito)</span>
                     <span>&bull;</span>
-                    <span><strong>Nicalia NVMe (4,95€):</strong> ~9.733 pts/€</span>
+                    <span><strong>LucusHost SSD Senior:</strong> 51.256 pts (~5.423 pts/€)</span>
                     <span>&bull;</span>
-                    <span><strong>Raiola Networks (8,95€):</strong> ~4.433 pts/€</span>
+                    <span><strong>Nicalia NVMe:</strong> 48.665 pts (~4.456 pts/€)</span>
                     <span>&bull;</span>
-                    <span><strong>OVH Cloud VPS (14,00€):</strong> ~3.762 pts/€</span>
+                    <span><strong>Raiola Networks:</strong> 39.677 pts (~3.988 pts/€)</span>
+                    <span>&bull;</span>
+                    <span><strong>OVH Cloud VPS:</strong> 52.676 pts (~2.928 pts/€)</span>
+                    <span>&bull;</span>
+                    <span><strong>BanaHosting Corporate:</strong> 19.980 pts (~2.482 pts/€)</span>
+                    <span>&bull;</span>
+                    <span><strong>LucusHost WP Master:</strong> 19.525 pts (~979 pts/€)</span>
                 </div>
             </div>
 
