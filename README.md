@@ -72,9 +72,12 @@ En el directorio [`results/`](results/) se recopilan los benchmarks reales ejecu
 | :--- | :--- | :--- | :---: | :---: | :---: | :--- |
 | **Oracle Cloud** | Always Free Ampere A1 (ARM64) | 2 Cores ARM | 12 GB | 429.146 | **69.499 pts** | [`oracle-cloud-free.json`](results/oracle-cloud-free.json) |
 | **OVH Cloud** | VPS Essential (KVM) | Haswell (6 cores) | 12 GB | 321.624 | **52.676 pts** | [`ovh-cloud-vps.json`](results/ovh-cloud-vps.json) |
+| **LucusHost** *(hl247)* | Hosting SSD Senior (Legacy 3) | AMD EPYC 4584PX | LVE (98 GB) | 225.224 | **51.256 pts** | [`lucushost-ssd-senior.json`](results/lucushost-ssd-senior.json) |
 | **Nicalia** | Hosting Elástico NVMe (LiteSpeed) | Xeon Gold 6248R | LVE | 280.000 | **48.170 pts** | [`nicalia-hosting.json`](results/nicalia-hosting.json) |
 | **Raiola Networks** *(ha1006)* | Hosting LiteSpeed HA | Xeon E5-2687W v3 | LVE | 204.565 | **39.677 pts** | [`raiola-networks-ha1006.json`](results/raiola-networks-ha1006.json) |
 | **Raiola Networks** *(Colaborador)* | Hosting LiteSpeed (`com1023`) | Xeon E5-2687W v3 | LVE | 200.569 | **37.276 pts** | [`raiola-networks-com1023.json`](results/raiola-networks-com1023.json) |
+| **BanaHosting** *(bh8962)* | Bana Corporate | Xeon E5-2699 v4 | LVE (251 GB) | 103.838 | **19.980 pts** | [`banahosting-bana-corporate.json`](results/banahosting-bana-corporate.json) |
+| **LucusHost** *(hl111)* | Hosting WP Master | AMD EPYC 7351P | LVE (125 GB) | 58.525 | **19.525 pts** | [`lucushost-wp-master.json`](results/lucushost-wp-master.json) |
 
 Puedes consultar el análisis comparativo completo y los ratios de **Rendimiento / Precio** en el artículo oficial:
 👉 [**Comparativa de Hostings y VPS: El Gran Ranking Técnico en SistemasOperativos.info**](https://sistemasoperativos.info/linux/comparativa-hostings-vps-benchmark/)
